@@ -20,10 +20,10 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/nortical/sepolicy/common/dynamic \
     device/nortical/sepolicy/common/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/nortical/sepolicy/common/dynamic \
     device/nortical/sepolicy/common/vendor
 endif
 
 # Selectively include legacy rules defined by the products
--include device/arrow/sepolicy/legacy-common/sepolicy.mk
+-include device/nortical/sepolicy/legacy-common/sepolicy.mk
