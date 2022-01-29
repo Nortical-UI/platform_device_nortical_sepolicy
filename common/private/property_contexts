@@ -4,3 +4,9 @@ vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
 
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
+
+# Boot animation dynamic colors
+persist.bootanim.color1     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color2     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color3     u:object_r:bootanim_system_prop:s0     exact    int
+persist.bootanim.color4     u:object_r:bootanim_system_prop:s0     exact    int
